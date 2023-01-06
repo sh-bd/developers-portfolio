@@ -94,12 +94,14 @@ main {
 
 }
 
+section{
+    margin-top: 130px;
+}
 .section-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 50px;
     text-align: center;
-    margin-top: 130px;
 }
 
 .section-description {
@@ -159,20 +161,24 @@ main {
     display: flex;
 }
 
-.resume-item {}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-.resume-title {
+/* .resume-title {
     font-weight: 700;
     font-size: 30px;
     color: #474747;
-}
+    margin-top: 113px;
+} */
 
 .resume .title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 25px;
     color: #474747;
-    margin-top: 30px;
+    
 }
 
 .resume .sub-title {
@@ -209,6 +215,9 @@ main {
     border: 0;
     width: 100%;
     padding: 18px 30px;
+}
+input{
+    height: 64px;
 }
 .contact a{
     text-decoration: none;
